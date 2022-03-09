@@ -14,3 +14,4 @@ if __name__ == '__main__':
     print('schedule startet ad ',time.strftime('%H:%M:%S'))
     while True:
         schedule.run_pending()
+        time.sleep(1)
